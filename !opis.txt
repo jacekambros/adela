@@ -1,0 +1,23 @@
+2017-01-05
+Projekt_01_17 - Robocza nazwa projektu strony internetowej dla Adeli 
+Biuro Rachunkowo-Ksiêgowe Adela Baldowska-Ambros
+
+Zadania:
+- Mo¿liwie szybko ustaliæ nazwê projektu, która bêdzie wykorzystana na GitHub;
+- Za³o¿æ na GitHub projektu z ustalon¹ nazw¹, zaimportowaæ pusty projekt, dodaæ pliki i zakomitowaæ;
+- Ustaliæ funkcjonalnoœæ strony;
+- Zabraæ materia³y do umieszczenia na stronie;
+- Odszukaæ strukturê projektu wykorzystywan¹ na studiach;
+
+Nazwa:
+BiuroAdela, BiuroAdeli, BRKABA, BiuroABA, URKA (Us³ugi Rachunkowo-Ksiêgowe Adela),
+
+GitHub:
+
+Funkcjonalnoœæ:
+Strona responsywna
+Styl Hero Image
+
+
+
+JA
