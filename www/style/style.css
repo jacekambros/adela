@@ -1,0 +1,22 @@
+.container {
+	background: #8F8F8F;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+/* Banner */
+.banner {
+	color: #FFFFFF;
+	background: #000000;
+	padding: 200px 200px;
+	background: url("../img/accountant-accounting-adviser-advisor-159804.jpeg") -2000px -100px;
+	
+}
+
+.banner h1 {
+	padding: 10px 0;
+}
