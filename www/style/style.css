@@ -1,6 +1,50 @@
+body {
+	
+}
+
+header {
+	background: #FFEAAA;
+}
+
+.informacje {
+	background: url("../img/accountant-accounting-adviser-advisor-159804.jpeg");
+	
+}
+.dane_i_produkty {
+
+}
+.dane {
+	float: left;
+	background: #A33643;
+	max-width: 600px;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	
+}
+
+.produkty {
+	float: left;
+	background: #448F30;
+	max-width: 600px;
+	margin: 20px 20px;
+	padding: 20px 20px;
+
+	}
+
+.opis {
+	background: #343477;
+	clear: both;
+	max-width: 1280px;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	
+
+	}
+
 .container {
-	background: #8F8F8F;
+	background: #AA8E39;
 	max-width: 800px;
+	min-width: 200px;
 	margin: 0 auto;
 }
 
@@ -12,7 +56,7 @@
 .banner {
 	color: #FFFFFF;
 	background: #000000;
-	padding: 200px 200px;
+	padding: 200px 100px;
 	background: url("../img/accountant-accounting-adviser-advisor-159804.jpeg") -2000px -100px;
 	
 }
