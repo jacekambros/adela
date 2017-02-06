@@ -6,13 +6,19 @@
 		<meta name="Keywords" content="Biura rachunkowe, rachunkowość, usługi rachunkowe, usługi księgowe, obsługa księgowa, rozliczenia PIT prowadzenie ksiąg przychodów, poprowadzenie ksiąg rozchodów, rozliczenie VAT,  
 		Rachunkowość uslugi, zeznania podatkowe pit, biuro podatkowe, obsługa kompleksowa, prowadzenie księgowości, ryczałt, rewidenci, Rachunkowość usługi, księgi przychodów, Biura - rachunkowe Podatkowi doradcy, deklaracja VAT, rozliczenia PIT, kadry płacy, księgowość, biura podatkowe, usługi księgowe, kadry, rachunkowość, Finanse ubezpieczenia, Usługi rachunkowe księgowe, VAT, doradztwo podatkowe, biuro rachunkowe, Rachunkowość - Usługi, deklaracje skarbowe, księgi handlowe, obsługa księgowa, księgi podatkowe, księgi przychodów i rozchodów, płace, księgowa" />
 		<title>Materiały Projekt_01_17</title>
+		<link rel="stylesheet" href="style/style_reset.css">
 		<link rel="stylesheet" href="style/style.css">
 
 	</head>
 	<body>
 	<header>
 		<div>
-			<a href="index.html">LOGO</a>
+			<a href="index.html"><img src="img/logo.svg" width="200px"</a>
+			<ul>
+				<li><a href="#data_link">Dane</a></li>
+				<li><a href="#products_link">Produkty</a></li>
+				<li><a href="#description_link">Opis</a></li>
+			</ul>
 		</div>
 	</header>
 	<section class="banner">
@@ -25,7 +31,8 @@
 	</section>
 	<section class="informacje">
 		<div class="dane_i_produkty">
-			<div class="dane">
+			<div class="dane" id="data">
+			<div id="data_link"></div>
 				<h2>Dane firmowe</h2>
 				<div>
 					<h3>Usługi Rachunkowo-Księgowe Adela Baldowska-Ambros</h3>
@@ -54,7 +61,8 @@
 					</ul>
 				</div>
 			</div>
-			<div class="produkty">
+			<div class="produkty" id="products">
+				<div id="products_link"></div>
 				<h2>Produkty i usługi</h2>
 				<p>Oferta biura rachunkowego</p>
 				<ul>
@@ -80,7 +88,19 @@
 				</p>
 			</div>
 		</div>
-		<div class="opis">
+		<div style="clear:both;"></div>
+		<!-- Test -->
+		<!--
+		<hr style="clear:both">
+		<div id="description_link">
+			<h2>Link Description</h2>
+			<div>
+				<p>Nasze biuro rachunkowe działa na zlecenie małych i średnich przedsiębiorstw, organizacji pozarządowych oraz osób fizycznych prowadzących jednoosobową działalność gospodarczą. Na bieżąco śledzimy zmiany zachodzące w Ustawie o Rachunkowości i w prawie podatkowy, dzięki czemu możemy zapewnić Państwu profesjonalną i rzetelną obsługę z zachowaniem dyskrecji i lojalności.</p>
+			</div>
+		-->
+				<!-- Test - End -->
+		<div id="description_link"></div>
+		<div class="opis" id="description">
 			<h2>Opis</h2>
 			<div>
 				<p>Nasze biuro rachunkowe działa na zlecenie małych i średnich przedsiębiorstw, organizacji pozarządowych oraz osób fizycznych prowadzących jednoosobową działalność gospodarczą. Na bieżąco śledzimy zmiany zachodzące w Ustawie o Rachunkowości i w prawie podatkowy, dzięki czemu możemy zapewnić Państwu profesjonalną i rzetelną obsługę z zachowaniem dyskrecji i lojalności.</p>
@@ -115,8 +135,6 @@
 			</div>
 		</div>
 		<hr>
-
-
 	</section>
 	<footer>
 		<p>by JA</p>
