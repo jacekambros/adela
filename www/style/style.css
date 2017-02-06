@@ -1,45 +1,141 @@
+* {
+	box-sizing: border-box;
+	--background-dane: #A33643;
+	--background-produkty: #448F30;
+	--background-opis: #343477;
+}
+
 body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.7;
+	
 	
 }
 
+h1 {
+	font-size: 35px;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 25px;
+}
+
 header {
-	background: #FFEAAA;
+	background: #FFEEAA;
+	width:100%;
+	position: fixed;
+	z-index:10;
+    top: 0px;
+	left: 0px;
+	
+}
+
+header img {
+	padding: 5px;
+}
+
+header ul {
+	float: right;
+}
+
+header li {
+	float: left;
+	line-height: 60px;
+	padding: 0 10px;
+}
+
+header a {
+	text-decoration: none;
 }
 
 .informacje {
 	background: url("../img/accountant-accounting-adviser-advisor-159804.jpeg");
 	
 }
+
 .dane_i_produkty {
 
 }
+
 .dane {
 	float: left;
 	background: #A33643;
-	max-width: 600px;
-	margin: 20px 20px;
-	padding: 20px 20px;
+	margin:2%;
+	width: 46%;
+	padding: 0px 5px 5px 5px;
 	
 }
 
+#data_link {
+	position: relative;
+	z-index: 2;
+	padding-top:60px;
+	margin-top:-60px;
+	
+}
+	
 .produkty {
 	float: left;
 	background: #448F30;
-	max-width: 600px;
-	margin: 20px 20px;
-	padding: 20px 20px;
+	margin:2%;
+	width: 46%;
+	padding: 0 5px 5px 5px;
 
-	}
+}
+
+#products_link {
+	position: relative;
+	z-index: 2;
+	padding-top:60px;
+	margin-top:-60px;
+	
+}
 
 .opis {
 	background: #343477;
-	clear: both;
-	max-width: 1280px;
-	margin: 20px 20px;
-	padding: 20px 20px;
+	margin: 0 2% 0 2%;
+	width: 96%;
+	padding: 0 5px 5px 5px;*/
+
+}
+
+#description_link {
+	position: relative;
+	z-index: 2;
+	padding-top:60px;
+	margin-top:-60px;
 	
+}
+	
+#description {
+
+}
+	
+#test{
+	padding-top:60px;
+	margin-top:-60px;
+}
+
+	
+@media all and (max-width:800px) {
+
+	.dane {
+		margin:0%;
+		width: 100%;
+	}
+
+	.produkty {
+		margin:0%;
+		width: 100%;
+	}
+
+	.opis {
+		margin:0%;
+		width: 100%;
 
 	}
+}	
 
 .container {
 	background: #AA8E39;
